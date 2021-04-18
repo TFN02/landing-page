@@ -1,0 +1,226 @@
+html{
+    position: relative;
+}
+body{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.jumbotron{
+    padding-top: 150px;
+    margin-bottom: 0px;
+    height: 600px;
+    background-image: url(img/bg/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    background-attachment: fixed;
+    color:#eaeaea;
+    overflow: hidden;
+}
+.jumbotron h1, .jumbotron p{
+    text-shadow: 1px 1px 10px rgba(0,0,0,.4);
+}
+.jumbotron img{
+    width: 200px;
+    height: 195px;
+    /* border: 1.5px solid #eaeaea; */
+}
+.dataMempelai{
+    background-image: url(img/bg/background-6.png);
+}
+.gr hr{
+    width: auto;
+    border-top: 3px solid #999;
+}
+
+hr{
+    width: 250px;
+    border-top: 3px solid #999;
+}
+.fotoMempelai{
+    height: 350px;
+    width: 230px;
+    border-radius: 10%;
+}
+
+section{
+    min-height: 600px;
+}
+.pKiri{
+    opacity: 0;
+    transform: translate(-50px, 0) ;
+    transition: 1s;
+}
+.pKanan{
+    opacity: 0;
+    transform: translate(50px, 0) ;
+    transition: 1s;
+}
+.pKiri.pMuncul, .pKanan.pMuncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.vendor{
+    background-image: url(img/bg/background-7.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -50px;
+}
+.vn hr{
+    width: 250px;
+    border-top: 3px solid #eaeaea;
+}
+.vn h2{
+    color: #eaeaea;
+}
+.tb1 .table{
+    /* background-color: rgba(0,0,0,.5); */
+    text-align: left;
+    color: #eaeaea;
+    border-color:#eaeaea;
+    filter: hue-rotate(45deg);
+}
+.pelakuAcara{
+    background-image:url(img/bg/background-6.png);
+}
+.pelakuAcara hr{
+    width: 350px;
+}
+.tb .table{
+    text-align: justify;
+    color: #000;
+    border-color: #0000;
+    
+}
+.rundownAkad{
+    background-image: url(img/bg/background-10.jpg);
+    /* background-position: 0 -700px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.rn h2{
+    color: #eaeaea;
+}
+.rn hr{
+    width: 250px;
+    border-top: 3px solid #eaeaea;
+}
+.ra hr{
+    width: auto;
+    border-top: 3px solid #eaeaea;
+}
+.ra1 h2{
+    color: #eaeaea;
+}
+.ra1 hr{
+    width: 350px;
+    border-top:3px solid #eaeaea;
+}
+.ra p{
+    color: #eaeaea;
+}
+.rundownResepsi{
+    background-image: url(img/bg/background-6.png);
+}
+.rr hr{
+    width: 350px;
+    border-top: 3px solid #333;
+}
+.rr1 hr{
+    width: auto;
+    border-top: 3px solid #333;
+}
+.rr1 p{
+    color: #333;
+}
+.vendor .table{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .4s;
+}
+.vendor .table.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.pelakuAcara .pelAcara{
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: .4s;
+}
+.pelakuAcara .pelAcara.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.rundownAkad .ra{
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: .4s;
+}
+.rundownAkad .ra.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.rundownResepsi .rr1{
+    opacity: 0;
+    transform: translate(0,-40px);
+    transition: .4s;
+}
+.rundownResepsi .rr1.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.portfolio{
+    background-color: #eee;
+}
+.portfolio .thumbnail{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 0.5s;
+}
+.portfolio .thumbnail.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.overlay{
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    z-index: 9999;
+    transition: 1s;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact{
+    min-height: 800px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    padding-top: 30px;
+}
+
+footer p{
+    color: #aaa;
+    font-size: 0.9em;
+}
+footer p i{
+    color: red;
+}
+.tb h6{
+    color: #aaa;
+}
+.tb img{
+    height: 20px;
+    width: 55px;
+}
